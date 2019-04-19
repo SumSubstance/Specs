@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
     s.dependency 'PocketSVG'
     s.dependency 'YYText'
     s.dependency 'RestKit', '>= 0.27.3'
-    s.dependency 'SDWebImage'
+    s.dependency 'SDWebImage', '< 5.0'
 end  
