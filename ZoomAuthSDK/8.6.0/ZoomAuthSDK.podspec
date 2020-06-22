@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, "8.3"
 
-    s.source       = { :http => "https://raw.githubusercontent.com/SumSubstance/KYC-iOS-Release/master/Deps/ZoomAuthSDK-#{s.version}.zip" }
+    s.source       = { :http => "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/Deps/ZoomAuthSDK-#{s.version}.zip" }
 
     s.vendored_frameworks = "ZoomAuthentication.framework"
 
