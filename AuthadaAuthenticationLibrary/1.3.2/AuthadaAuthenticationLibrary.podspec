@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
     s.license      = { type: 'custom', text: 'Copyright © 2019 Authada GmbH' }
 
     s.platform     = :ios, '11.0'
-    s.source       = { :http => "https://raw.githubusercontent.com/SumSubstance/IdensicMobileSDK-iOS-Release/master/Deps/AuthadaAuthenticationLibrary-#{s.version}.zip" }
+    s.source       = { :http => "https://maven.sumsub.com/repository/maven-private/de/authada/library/aal-ios/#{s.version}/aal-ios-#{s.version}.zip" }
     s.vendored_frameworks = 'AuthadaAuthenticationLibrary.xcframework'
 
 end
