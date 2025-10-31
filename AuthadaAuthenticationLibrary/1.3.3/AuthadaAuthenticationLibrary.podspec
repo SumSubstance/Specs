@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, '12.0'
     s.source       = { :http => "https://maven.sumsub.com/repository/maven-private/de/authada/library/aal-ios/#{s.version}/aal-ios-#{s.version}.zip" }
-    s.vendored_frameworks = 'AuthadaAuthenticationLibrary.xcframework'
+    s.vendored_frameworks = 'AuthadaAuthenticationLibrary/AuthadaAuthenticationLibrary.xcframework'
 
 end
